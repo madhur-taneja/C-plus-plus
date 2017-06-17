@@ -3,6 +3,9 @@ Base Class name bill has three data members: it em_code, price, total. Class cas
 
 CODE:
 
+#include <iostream.h>
+#include <string.h>
+
 using namespace std;
 
 class bill { 
