@@ -3,7 +3,7 @@ Write a program to calculate total result of a student by adding marks in two su
 
 CODE:
 
-#include <iostream.h>
+#include <iostream>
 #include <string.h>
 
 using namespace std;
@@ -11,23 +11,21 @@ using namespace std;
 class Sports;
 class Test;
 class Result;
-class Student
-{
-protected:
-      int roll;
-
+class Student {
 public:
+
     void get_num(int);
     void put_num();
+    int roll;
 };
 
 void Student::get_num(int i)
 {
-      roll = i;
+    roll = i;
 }
 void Student::put_num()
 {
-      cout << "Roll number " << roll << endl;
+    cout << "Roll number" << roll << endl;
 }
 
 class Sports
@@ -37,7 +35,6 @@ public:
     void get_score(int a)
     {
         sportsMarks = a;
-         
     }
 };
 class Test
@@ -48,7 +45,6 @@ public:
     {
         marks1 = a;
         marks2 = b;
-         
     }
 };
 
@@ -71,12 +67,12 @@ int main()
 {
     int r, sc, s1, s2;
     cin >> r >> s1 >> s2 >> sc;
-    if ((r <= 0 || sc <= 0 || s1 <= 0 || s2 <= 0))
+    if (r <= 0 || sc <= 0 || s1 <= 0 || s2 <= 0)
     {
-        cout << "Wrong Input" << endl;
-        return 0;
-         
+        cout << "Wrong Input" << endl;
+        return 0;
     }
+
     Result obj;
     obj.get_num(r);
     obj.Sports::get_score(sc);
