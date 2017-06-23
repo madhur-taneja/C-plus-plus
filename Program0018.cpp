@@ -3,7 +3,7 @@ Write a program to enter basic information(name,empId,gender) and department inf
 
 CODE:
 
-#include <iostream.h>
+#include <iostream>
 #include <string.h>
 
 using namespace std;
