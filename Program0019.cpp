@@ -3,7 +3,7 @@ Write a program to calculate area of Square and Circle using classes Shape,Squar
 
 CODE:
 
-#include <iostream.h>
+#include <iostream>
 #include <string.h>
 
 using namespace std;
