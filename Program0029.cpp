@@ -1,11 +1,9 @@
 Ques:
-employees of some particular bank want an application interface for performing cash transaction online so they have created an app . Create a class named employee with data members --account_no(long int), balance and member function void get_data() and void display_data().
-Class beneficiary has data member- b_acc_no(long int) , b_bal and b_amt. member function of this class are void get_b_data() and void transfer() and void print().
-transfer function is used to transfer amount from employee account to beneficiary account . If amount to be transferred is less than employee's balance then print "insufficient balance".
+employees of some particular bank want an application interface for performing cash transaction online so they have created an app . Create a class named employee with data members --account_no(long int), balance and member function void get_data() and void display_data(). Class beneficiary has data member- b_acc_no(long int) , b_bal and b_amt. member function of this class are void get_b_data() and void transfer() and void print(). Transfer function is used to transfer amount from employee account to beneficiary account . If amount to be transferred is less than employee's balance then print "insufficient balance".
 
 CODE:
 
-#include <iostream.h>
+#include <iostream>
 
 using namespace std;
 
