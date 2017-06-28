@@ -3,7 +3,7 @@ Raj works in two shifts, (Shift1 and Shift2).For both shifts he maintain a  s
 
 CODE:
 
-#include <iostream.h>
+#include <iostream>
 using namespace std;
 int size;
 class test  {  
