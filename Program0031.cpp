@@ -3,7 +3,7 @@ Deﬁne a class Customer with the following speciﬁcations. Protected Members 
 
 CODE:
 
-#include < iostream.h >
+#include < iostream >
 using namespace std;
 class customer {
 protected:
