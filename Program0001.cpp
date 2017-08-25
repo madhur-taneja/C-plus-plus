@@ -1,7 +1,7 @@
-Ques: 
-Write a cpp program to swap the values of two variables using call by value and call by reference mechanism.
+//Ques: 
+//Write a cpp program to swap the values of two variables using call by value and call by reference mechanism.
 
-CODE :
+//CODE :
 
 #include<iostream>
 using namespace std;
